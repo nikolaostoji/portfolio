@@ -2,32 +2,37 @@ import React from 'react';
 import styles from './WorkSummary.module.css';
 import WorkExperience from '../WorkExperience/WorkExperience.lazy'
 
-const Experience = (companyName, jobTitle, startDate, endDate, overview, technologies) => {
+const Experience = (companyName, jobTitle, startDate, endDate, overview, technologies, url) => {
    return {
     companyName: companyName,
     jobTitle: jobTitle,
     startDate: startDate,
     endDate: endDate,
     overview: overview,
-    technologies: technologies
+    technologies: technologies,
+    url: url
   } 
 }
 
 const RitualExperience = Experience("Ritual Inc.", "Senior Software Developer", "March 2021", "June 2023",
 "Designed and led several high-impact projects collaborating with multiple development teams. Had ownership of maintaining and fixing issues Ritual For Companies product. Updated documentation and several processes, such as Backend Technical Design Review Document.",
-["Java", "Springboot", "GCP", "MySQL", "Terraform", "Terragrunt", "Keycloak"]);
+["Java", "Springboot", "GCP", "MySQL", "Terraform", "Terragrunt", "Keycloak"],
+"https://ritual.co/");
 
 const CasewareExperience = Experience("Caseware", "Full-Stack Software Developer", "February 2019", "October 2020",
 "Worked on greenfield development of legacy accounting and audit SaaS product. Built out features such as MFA flows, login flows, and auth service. This role involved collaborating with different teams and leading some of the projects.",
-["Java", "Springboot", "AWS", "MongoDB", "PostgresSql", "HTML", "CSS", "Typescript", "Angular"]);
+["Java", "Springboot", "AWS", "MongoDB", "PostgresSql", "HTML", "CSS", "Typescript", "Angular"],
+"https://www.caseware.com/ca/");
 
 const LaborieExperience = Experience("Laborie Medical Technologies", "Software Developer", "May 2017", "February 2019",
 "Worked in an agile environment, building new features for medical device software. Collaborated with Product team on the requirements and QA team to ensure features worked correctly.",
-["C#", ".NET", "Azure", "MySQL"]);
+["C#", ".NET", "Azure", "MySQL"],
+"https://www.laborie.com/");
 
 const BioradExperience = Experience("Bio-Rad Laboratories", "Software Engineer", "November 2016", "May 2017",
 "Created software to perform real-time image analysis from a camera using computer vision in order to automatically calibrate fraction collectors.",
-["C++", "OpenCV"]);
+["C++", "OpenCV"],
+"https://www.bio-rad.com/");
 
 const WorkSummary = () => (
   <div className={styles.WorkSummary}>

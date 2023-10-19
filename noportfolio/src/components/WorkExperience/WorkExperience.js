@@ -3,8 +3,12 @@ import styles from './WorkExperience.module.css';
 import TechnologiesDisplay from '../TechnologiesDisplay/TechnologiesDisplay';
 
 const WorkExperience = (props) => {
+  function followLink() {
+    window.open(props.experience.url);
+  }
+  
   return (
-    <div className={styles.WorkExperience}>
+    <div onClick={followLink} className={styles.WorkExperience}>
       <div>
         <div className={styles.CompanyHeader}>
           <h3> {props.experience.companyName} </h3>
@@ -22,5 +26,8 @@ const WorkExperience = (props) => {
     </div>
   );
 }
+
+
+
 
 export default WorkExperience;

@@ -2,7 +2,6 @@ import './App.css';
 import Introduction from './components/Introduction/Introduction.lazy';
 import WorkSummary from './components/WorkSummary/WorkSummary';
 import PersonalProjects from './components/PersonalProjects/PersonalProjects.lazy';
-import Socials from './components/Socials/Socials.lazy';
 
 function App() {
   return (

@@ -1,6 +1,14 @@
 .WorkExperience {
     padding-top: 0.5rem;
     padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.WorkExperience:hover {
+    border: 1px solid #e4e4e7;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 .CompanyHeader {
