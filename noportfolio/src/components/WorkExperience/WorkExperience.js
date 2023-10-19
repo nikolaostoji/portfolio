@@ -1,23 +1,24 @@
 import React from 'react';
 import styles from './WorkExperience.module.css';
+import TechnologiesDisplay from '../TechnologiesDisplay/TechnologiesDisplay';
 
 const WorkExperience = (props) => {
-  let technologies = props.experience.technologies;
   return (
     <div className={styles.WorkExperience}>
-      {/* Company info TODO flex so these are side by side */}
       <div>
-        <div> {props.experience.companyName} </div>
-        <div> {props.experience.startDate} - {props.experience.endDate} </div>
+        <div className={styles.CompanyHeader}>
+          <h3> {props.experience.companyName} </h3>
+          <h3> {props.experience.startDate} - {props.experience.endDate} </h3>
+        </div>
+        
+        <h3> {props.experience.jobTitle} </h3>
       </div>
-      <div>
-        {props.experience.overview}
-      </div>
-      <ul>
-      {technologies.map((technology, index) => (
-          <li key={index}> {technology}</li>
-        ))}
-      </ul>
+      <p>
+        <span>
+          {props.experience.overview}
+        </span>
+      </p>
+      <TechnologiesDisplay technologies={props.experience.technologies} />
     </div>
   );
 }

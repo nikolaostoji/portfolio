@@ -1,9 +1,23 @@
 import React from 'react';
-import styles from './PersonalProjects.module.css';
+import Project from '../Project/Project';
 
-const PersonalProjects = () => (
-  <div className={styles.PersonalProjects}>
-    PersonalProjects Component
+const ProjectDescription = (projectName, projectOverview, technologies) => {
+  return {
+   projectName: projectName,
+   projectOverview: projectOverview,
+   technologies: technologies
+ } 
+}
+
+const PortfolioWebsite = ProjectDescription("Website",
+"Created a personal portfolio website using React.",
+["Javascript", "React", "HTML", "CSS"]);
+
+
+const PersonalProjects = (props) => (
+  <div>
+        <h2> Personal Projects </h2>
+        <Project project={PortfolioWebsite} />
   </div>
 );
 

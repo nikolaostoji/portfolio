@@ -1,1 +1,10 @@
-.WorkExperience {}
+.WorkExperience {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.CompanyHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}

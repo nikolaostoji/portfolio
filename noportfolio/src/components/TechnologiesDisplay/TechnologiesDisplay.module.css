@@ -1,0 +1,14 @@
+.TechnologiesDisplay {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5rem;
+}
+
+.TechnologyDisplayBox {
+    border: none;
+    border-radius: 1rem;
+    padding: 3px 8px 3px 8px;
+    background-color: rgba(17, 94, 89, 0.5);
+    font-size: 14px;
+    color: #5eead4;
+}

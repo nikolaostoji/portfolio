@@ -1,1 +1,10 @@
-.WorkSummary {}
+.WorkSummary {
+    max-width: 600px;
+}
+
+.WorkHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
