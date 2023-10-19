@@ -25,6 +25,7 @@
 .ProjectsWrapper {
   grid-area: projects;
   padding: 0.5rem;
+  padding-top: 0px;
 }
 
 h1 {
