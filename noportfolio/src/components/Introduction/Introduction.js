@@ -14,9 +14,10 @@ const Introduction = () => (
     </h4>
     <p>
       <span>
-        I got into software development from my interest in gaming; creating an Xbox 360 game in C# while in high school during a summer camp.
-        In my 4th year at the University of Waterloo, I took a distributed systems course, where I gained interested in building cloud applications. 
-        Fast-forward 7 years later, I have worked in a variety of fields as a backend developer, building scalable services.
+      My journey as a software developer started through my interested in gaming.
+      It was during a summer camp while I was still in high school, that I developed an Xbox 360 game using C#.
+      In my fourth year at the University of Waterloo, a distributed systems course sparked my interest in the cloud.
+      Fast forward to today, I'm a backend/full-stack developer focused on building cloud-based services, eager to explore new challenges and make a mark in the tech world.
       </span>
     </p>
     <Socials />
