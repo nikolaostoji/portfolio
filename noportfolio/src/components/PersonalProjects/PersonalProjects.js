@@ -11,7 +11,7 @@ const ProjectDescription = (projectName, projectOverview, technologies) => {
 }
 
 const PortfolioWebsite = ProjectDescription("Portfolio Website",
-"The portfolio website you are looking at, developed using JS/React, HTML, CSS. Deployed and CI setup using netlify.",
+"The portfolio website you are looking at, developed using JS/React, HTML, CSS. Deployed (and setup CI) using netlify.",
 ["Javascript", "React", "HTML", "CSS"]);
 
 const BartenderRobot = ProjectDescription("Bartending Robot",

@@ -15,12 +15,12 @@ const Experience = (companyName, jobTitle, startDate, endDate, overview, technol
 }
 
 const RitualExperience = Experience("Ritual Inc.", "Senior Software Developer", "March 2021", "June 2023",
-"Designed and led several high-impact projects collaborating with multiple development teams. Had ownership of maintaining and fixing issues Ritual For Companies product. Updated documentation and several processes, such as Backend Technical Design Review Document.",
+"Designed and successfully led several high-impact projects that involved cross-team collaboration. Had ownership of the Ritual for Companies product, with responsibilities including fixing, maintaining and building out new functionality. Provided recommendations and wrote out documentation on processes to improve developer productivity.",
 ["Java", "Springboot", "GCP", "MySQL", "Terraform", "Terragrunt", "Keycloak"],
 "https://ritual.co/");
 
 const CasewareExperience = Experience("Caseware", "Full-Stack Software Developer", "February 2019", "October 2020",
-"Worked on greenfield development of legacy accounting and audit SaaS product. Built out features such as MFA flows, login flows, and auth service. This role involved collaborating with different teams and leading some of the projects.",
+"Worked on rebuilding a legacy accounting and audit SaaS product. Built out features such as MFA flows, login flows, and auth service. This role involved collaborating with different teams and leading some of the projects.",
 ["Java", "Springboot", "AWS", "MongoDB", "PostgresSql", "HTML", "CSS", "Typescript", "Angular"],
 "https://www.caseware.com/ca/");
 
