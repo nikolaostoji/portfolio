@@ -16,7 +16,8 @@ const Introduction = () => (
       <span>
       My journey as a software developer started through my interest in gaming.
       During a summer camp in high school, I developed an Xbox 360 game using C#.
-      In my fourth year at the University of Waterloo, a distributed systems course sparked my interest in the cloud.
+      This made me pursue a Bachelor of Computer Science from the University of Waterloo.
+      In my fourth year, a distributed systems course sparked my interest in the cloud.
       Fast forward to today, I'm a backend/full-stack developer focused on building cloud-based services, looking for new opportunities to solve interesting challenges.
       </span>
     </p>
